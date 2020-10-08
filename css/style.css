@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,900,900i|Roboto+Condensed:400,400i,700|Roboto:400,400i,900|Shadows+Into+Light');
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+p{
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.sidenav {
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+  color: black;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 220px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#Rafsan {
+  font-size: 5rem;
+  margin-left: 220px;
+}
+
+.centerpiece{
+  text-align: center;
+  font-style: italic;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.pictures{
+  display: inline-block;
+}
+
+.gap{
+  padding-left: 60px;
+  padding-right: 70px;
+}
+
+.bottomleft{
+  position: absolute;
+  font-size: 18px;
+
+}
+
+.bottomRight{
+  position: absolute;
+  font-size: 18px;
+  margin-left: 70rem;
+
+
+}
+
+.bottom{
+
+}
+
+.navbottom  {
+  font-size: small;
+  padding: 15px;
+}
