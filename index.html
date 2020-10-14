@@ -1,135 +1,217 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/style.css">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Rafsan Satter">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <!-- Wrap the top-level heading in a header element -->
+
+    <header>
+      <h1>Planets Data</h1>
+
+    </header>
+
+    <main>
+        <table>
+          <caption>Data about the planets of our solar system (Planetary facts taken from
+            <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+          </caption>
+
+          <colgroup>
+            <col span="2" title="Name">
+            <col title="Mass">
+            <col title="Diameter(km)">
+            <col title="Density (kg/m<sup>3</sup>)">
+            <col title="">
+            <col title="Gravity (m/s<sup>2</sup>)">
+            <col title="Length of day (hours)">
+            <col title="">
+            <col title="Distance from Sun (10<sup>6</sup>km)">
+            <col title="Mean temperature (°C)">
+            <col title="Number of moons">
+            <col title="Notes">
+            <col title="Image">
+
+          </colgroup>
+
+          <thead>
+            <tr>
+              <th colspan="2"></th>
+              <th scope="col">Name</th>
+              <th scope="col">Mass (10<sup>24</sup>kg)</th>
+              <th scope="col">Diameter (km)</th>
+              <th scope="col">Density (kg/m<sup>3</sup>)</th>
+              <th scope="col">Gravity (m/s<sup>2</sup>)</th>
+              <th scope="col">Length of day (hours)</th>
+              <th scope="col">Distance from Sun (10<sup>6</sup>km)</th>
+              <th scope="col">Mean temperature (°C)</th>
+              <th scope="col">Number of moons</th>
+              <th scope="col">Notes</th>
+              <th scope="col">Image</th>
+
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td colspan="2" rowspan="4" scope="rowgroup"><strong>Terrestial planets</strong></td>
+              <td>Mercury</td>
+              <td>0.330 </td>
+              <td>4,879 </td>
+              <td>5427 </td>
+              <td>3.7 </td>
+              <td>4222.6 </td>
+              <td>57.9 </td>
+              <td>167 </td>
+              <td>0 </td>
+              <td>Closest to the Sun</td>
+              <td> <img src="images/mercury.jpg" alt="mercury"> </td>
+            </tr>
+
+            <tr>
+              <td>Venus</td>
+              <td>4.87 </td>
+              <td>12,104 </td>
+              <td>5243 </td>
+              <td>8.9 </td>
+              <td>2802.0 </td>
+              <td>108.2 </td>
+              <td>464 </td>
+              <td>0</td>
+              <td></td>
+              <td> <img src="images/venus.jpg" alt="venus"> </td>
+
+            </tr>
+
+
+            <tr>
+              <td>Earth </td>
+              <td>5.97 </td>
+              <td>12,756 </td>
+              <td>5514 </td>
+              <td>9.8 </td>
+              <td>24.0 </td>
+              <td>149.6 </td>
+              <td>15 </td>
+              <td>1</td>
+              <td>Our world</td>
+              <td> <img src="images/earth.png" alt="earth"> </td>
+            </tr>
+
+            <tr>
+              <td>Mars </td>
+              <td>0.642 </td>
+              <td>6,792 </td>
+              <td>3933 </td>
+              <td>3.7 </td>
+              <td>24.7 </td>
+              <td>227.9 </td>
+              <td>-65</td>
+              <td>2 </td>
+              <td>The red Planet</td>
+              <td> <img src="images/mars.jpg" alt=""> </td>
+            </tr>
+
+            <tr>
+              <td colspan="1" rowspan="4" scope="rowgroup"><strong>Jovian Planets</strong></td>
+              <td colspan="1" rowspan="2" scope="rowgroup"><strong>Gas Giants</strong></td>
+              <td>Jupiter</td>
+              <td>1898</td>
+              <td>142,984 </td>
+              <td>1326 </td>
+              <td>23.1 </td>
+              <td>9.9 </td>
+              <td>778.6 </td>
+              <td>-110</td>
+              <td>67 </td>
+              <td>The largest planet</td>
+              <td> <img src="images/jupiter.jpg" alt="jupiter"> </td>
+            </tr>
+
+
+            <tr>
+              <td>Saturn</td>
+              <td>568 </td>
+              <td>120,536 </td>
+              <td>687 </td>
+              <td>9.0 </td>
+              <td>10.7 </td>
+              <td>1433.5 </td>
+              <td>-140</td>
+              <td>62</td>
+              <td></td>
+              <td> <img src="images/saturn.jpg" alt="saturn"> </td>
+
+            </tr>
+
+            <tr>
+              <td colspan="1" rowspan="2" scope="rowgroup"><strong>Ice Giants</strong></td>
+              <td>Uranus </td>
+              <td>86.8 </td>
+              <td>                51,118</td>
+              <td>1271 </td>
+              <td>8.7 </td>
+              <td>17.2 </td>
+              <td>2872.5 </td>
+              <td>-195</td>
+              <td>27</td>
+              <td></td>
+              <td> <img src="images/uranus.jpg" alt="uranus"> </td>
+            </tr>
+
+            <tr>
+              <td>Neptune</td>
+              <td>102 </td>
+              <td>49,528 </td>
+              <td>1638 </td>
+              <td>11.0 </td>
+              <td>16.1 </td>
+              <td>4495.1 </td>
+              <td>-200</td>
+              <td>14</td>
+              <td></td>
+              <td> <img src="images/neptune.jpg" alt="neptune"> </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" rowspan="1" scope="rowgroup"><strong>Ice Giants</strong></td>
+              <td>Pluto </td>
+              <td>0.0146 </td>
+              <td>2,370 </td>
+              <td>2095 </td>
+              <td>0.7 </td>
+              <td>153.3 </td>
+              <td>5906.4 </td>
+              <td>-225 </td>
+              <td>5</td>
+              <td>Declassified as a planet in 2006,
+                but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.</td>
+              <td> <img src="images/pluto.jpg" alt="pluto"> </td>
+            </tr>
+        </tbody>
+
+        </table>
+      </main>
+        <!-- Add a main element to contain the table -->
+
+            <!-- Add the table element. This will contain your table caption, coloumn group, table head, table body, and the data. -->
+
+                <!-- The caption element should be the first child of the table element, and wrap the following text and link.-->
 
 
 
-</head>
-<body>
+                <!-- The second child of the table element should be the colgroup element, which also contains several col elements,
+                and helps define the purpose of the table colums. -->
 
- <h1 id="Rafsan"> Rafsan // Porfolio  </h1>
+                <!-- The table head element should be the third child of the table element;
+                it will wrap the code and content to define a row of column headers. -->
 
- <hr>
+                <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
 
-
-<div class="sidenav">
-  <img src="images/satter.jpg" alt="photo of rafsan ">
-  <a href="#about">Letter markup</a>
-  <br>
-  <a href="#services">Planets Table</a>
-  <br>
-  <a href="#clients">Wanted Poster</a>
-  <br>
-  <a href="#contact">School Site</a>
-  <br>
-  <a href="#contact">Blog</a>
-
-  <div class="navbottom">
-    Rafsan_Satter 125 by Pretty Poo Eater licensed under CC BY SA 2.0
-  </div>
-
-</div>
-
-<div class="main">
-  <h2>Bio</h2>
-
-  <p>Umami chillwave pinterest, bushwick unicorn hammock green juice banjo try-hard mlkshk snackwave street art pabst selvage.
-    Kinfolk put a bird on it la croix austin meh trust fund scenester. Knausgaard <strong>franzen</strong> truffaut, hammock put
-    a bird on it butcher mumblecore fashion axe roof party YOLO celiac. Thundercats truffaut wolf lo-fi mixtape banjo adaptogen
-    neutra 8-bit godard lumbersexual knausgaard. Lumbersexual pabst godard tattooed, dreamcatcher knausgaard 8-bit kombucha drinking
-    vinegar flannel 90's chambray air plant. Edison bulb succulents art party scenester migas. Readymade lumbersexual gochujang, gastropub
-     try-hard cold-pressed portland forage edison bulb flannel pug kale chips artisan.</p>
-
-     <p>Asymmetrical lyft freegan cred. Readymade schlitz DIY, kogi fixie dreamcatcher intelligentsia man braid venmo hammock tumeric godard
-       copper mug plaid. Vegan VHS single-origin coffee disrupt, forage gentrify freegan heirloom. Gochujang kickstarter unicorn lumbersexual.
-       Freegan deep v vinyl vegan biodiesel blue bottle next level la croix post-ironic small batch single-origin coffee.
-       Farm-to-table actually copper mug retro. Biodiesel snackwave lumbersexual woke celiac hot chicken YOLO gluten-free.</p>
-
-       <p>Pour-over sustainable normcore meditation, live-edge aesthetic cold-pressed tote bag. Migas palo santo plaid salvia, woke vape vice.
-         Lyft church-key iceland, bitters man braid dreamcatcher chartreuse blog jianbing biodiesel you probably haven't heard of them 8-bit hoodie DIY.
-         Ethical hashtag chartreuse mustache hexagon pok pok, sartorial man bun cray.
-         Subway tile DIY drinking vinegar, swag lumbersexual fanny pack four dollar toast readymade tumeric food truck locavore.
-         Bitters street art selfies, occupy four loko actually <a href="#">waistcoat</a>. Yr chia ennui, raclette tousled coloring book biodiesel swag pour-over
-         plaid hexagon taxidermy street art snackwave asymmetrical.</p>
-
-
-
-<br>
-
-  <h2>Design Philosophy</h2>
-
-  <p>Literally cold-pressed hell of keytar, sriracha XOXO edison bulb aesthetic austin church-key actually narwhal Waistcoat Sartorial.
-    Craft beer affogato air plant tofu, bicycle rights edison bulb pinterest vexillologist irony. Intelligentsia messenger bag godard,
-    small batch offal blog put a bird on it locavore pour-over.</p>
-
-  <p>Lyft readymade chia, echo park seitan schlitz health goth. Kale chips cloud bread photo booth church-key air plant.
-    Four loko etsy actually shabby chic. Brunch drinking vinegar fingerstache plaid +1 selfies thundercats.
-    Kombucha fingerstache disrupt lo-fi pour-over actually. Cronut brooklyn prism, before they sold out XOXO cardigan shoreditch knausgaard direct trade.
-    Synth fashion axe slow-carb heirloom air plant.</p>
-
-
-<hr>
-<br>
-
-<div class="centerpiece">
-<p>"Hammock organic jean shorts migas occupy next level glossier yr deep v before they sold out jianbing artisan.
-  Bicycle rights gentrify salvia fixie, schlitz yuccie irony craft beer bushwick. Live-edge austin hammock pinterest actually readymade."</p>
-<br>
-<hr>
-
-</div>
-
-<p>Pok pok iPhone fashion axe taiyaki, echo park vegan trust fund yuccie small batch bespoke fam beard twee.
-  Seitan actually forage, fanny pack hell of hexagon vaporware. Gluten-free <em>flexitarian cornhole gentrify</em> skateboard keytar.
-  Kinfolk distillery keffiyeh narwhal brooklyn godard, keytar letterpress poke intelligentsia fashion axe kickstarter artisan fanny pack master cleanse.</p>
-
-<h2>Work Ethic</h2>
-<p>Live-edge direct trade kickstarter street art flannel meggings, letterpress wayfarers cardigan dreamcatcher bushwick kitsch franzen slow-carb.
-  Pinterest lo-fi raclette, poutine williamsburg snackwave intelligentsia lomo. Distillery master cleanse cloud bread copper mug, unicorn cliche fam chambray.
-  Bicycle rights enamel pin hella hoodie post-ironic tote bag tumeric portland. Microdosing VHS kickstarter art party coloring book health goth.
-  Vape pitchfork activated charcoal dreamcatcher chambray.</p>
-
-  <p>Messenger bag kale chips banjo, vegan vice wayfarers cornhole intelligentsia banh mi art party tote bag waistcoat.
-    Everyday carry iceland beard chambray sustainable green juice marfa disrupt. Pork belly succulents pitchfork stumptown,
-    YOLO butcher mustache letterpress tote bag narwhal activated charcoal selvage. Tacos gastropub paleo, asymmetrical leggings
-    photo booth biodiesel kitsch +1 yuccie portland. Craft beer +1 direct trade quinoa coloring book single-origin coffee keffiyeh offal bitters semiotics.
-    Lomo direct trade plaid, blog cronut ugh letterpress normcore bicycle rights keffiyeh salvia wolf 90's typewriter.</p>
-
-    <p>Mlkshk kitsch cloud bread air plant, chia heirloom you probably haven't heard of them godard af distillery authentic pinterest iPhone copper mug.
-      Edison bulb sriracha chillwave ramps distillery. Selvage lumbersexual <b>try-hard marfa shaman</b> raclette irony vegan hella pok pok chia.
-      Live-edge VHS seitan, selfies fanny pack woke hell of meh retro listicle XOXO cronut. Occupy forage palo santo post-ironic farm-to-table.
-      Godard church-key salvia four dollar toast glossier palo santo cliche.</p>
-
-<div class="pictures">
-  <img class= "gap" src="images/puddle1.jpg" alt="">
-  <img class= "gap" src="images/puddle2.jpg" alt="">
-
-</div>
-
-
-
-
-
-
-
-
-</div>
-
-<hr>
-<div class="bottom">
-
-  <span class="bottomLeft">
-<a href="#">Back to top</a>
-  </span>
-
-  <span class="bottomRight">
-&copy; 2020 <a href="#">R. Satter</a>
-
-  </span>
-</div>
-
-
-</body>
+                <!-- Please note that you do NOT need to add a table footer for this assignment. -->
+    </body>
 </html>
